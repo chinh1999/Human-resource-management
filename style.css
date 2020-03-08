@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	font-family: "Times New Roman",arial, sans-serif;
+	width: 1920px;
+	background-color: #f0f0f0;
+	position: absolute;
+	display: inline-block;
+}
+
+ul ul,ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #0a0909;
+}
+
+
+/*CSS nav*/
+nav{
+	width: 100%;
+	height: 7%; 
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+#nav-logo, #nav-logo img{
+	width: 120px;
+	height: 60px;
+	margin: 0 25px;
+}
+#nav-login{
+	width: 150px;
+	height: 100%;
+	font-family: arial, "Times New Roman", sans-serif;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 20px;
+}
+#nav-login a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/*CSS slidebar*/
+.aside {
+	float: left;
+	width: 60px;
+	height: 93%;
+	transition: width 0.5s;
+	overflow: hidden;
+	background-color: white;
+}
+.aside:hover {
+	width: 250px;
+}
+.aside li:hover{
+	background-color: #ffae00;
+}
+.inner-menu div{
+	width: 300px
+	height 50px;
+	line-height: 50px;
+	position: relative;
+}
+.aside img{
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+}
+.aside li{
+	width: 250px;
+	height: 60px;
+	margin-bottom: 25px;
+}
+ .inner-menu img, .aside a{
+	float: left;
+	margin: 5px;
+}
+
+
+
+/*CSS web Login*/
+#div-login {
+	width: 400px;
+	height: 600px;
+	position: relative;
+	background-color: white;
+	margin: 100px auto;
+	border-radius: 15px;
+	border: 0.5px solid #dedcdc;
+}
+
+#logo img {
+	width: 370px;
+	height: 130px;
+	margin: 15px 15px;
+}
+#content{
+	height: 60px;
+	width: 360px;
+	margin: 0 20px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 21px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	font-family: arial, "Times New Roman", sans-serif;
+}
+#form-log{
+	width: 390px;
+	height: 250px;
+	margin: 10px auto;
+	border-bottom: 1px solid #eeeeee;
+}
+.form-control{
+	font-size: 16px;
+	width: 360px;
+	height: 46px;
+	padding: 0px 16px;
+	margin: 15px 15px;
+	border-radius: 5px;
+	z-index: 1;
+}
+.button-form, #back{
+	font-size: 16px;
+	width: 360px;
+	height: 46px;
+	padding: 0px 16px;
+	margin: 15px 15px;
+	border-radius: 5px;
+	background-color: #0b90ee;
+	border:none;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.button-form:hover, #back:hover{
+	background-color: #469bd8;
+}
+#or{
+	font-family: arial, "Times New Roman", sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	width: 40px;
+	margin: -18px auto 15px;
+	padding: 0 10px;
+	text-align: center;
+	background-color: white;
+}
+#back a{
+	margin: 0 auto;
+	color: white;
+	line-height: 45px;
+	font-family: arial, "Times New Roman", sans-serif;
+}
+/*End CSS web login*/
