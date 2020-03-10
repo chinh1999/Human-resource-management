@@ -3,6 +3,7 @@
 <head>
 	<title>Quản lý nhân sự</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
 	<nav id="nav">
@@ -13,42 +14,60 @@
 			<a href="file:///C:/Users/ADMIN/Desktop/TTN/login.html" id="nav-log"><h4 id="label">Đăng nhập</h4></a>
 		</div>
 	</nav>
-	<aside class="aside">
-		<ul class="mainmenu">
-			<img src="image/icon-menu.png">
-			<li class="inner-menu">
-				<div>
-					<img src="image/icon-add.png">
-					<a href="#"><h3>Thêm nhân sự mới</h3></a>
-				</div>
-			</li>
-			<li class="inner-menu">
-				<div>
-					<img src="image/icon-fix.jpg">
-					<a href="#"><h3>Sửa nhân sự</h3></a>
-				</div>
-			</li>
-			<li class="inner-menu">
-				<div>
-					<img src="image/icon-search.ico">
-					<a href="#"><h3>Tìm kiếm</h3></a>
-				</div>
-			</li>
-			<li class="inner-menu">
-				<div>
-					<img src="image/icon-use-manual.png">
-					<a href="#"><h3>Hướng dẫn sử dụng</h3></a>
-				</div>
-			</li>
-			<li class="inner-menu">
-				<div>
-					<img src="image/icon-contact.png">
-					<a href="#"><h3>Liên hệ chúng tôi</h3></a>
-				</div>
-			</li>
-		</ul>
-	</aside>
-
+	<div class="inner-wrap">
+		<aside class="aside">
+			<ul class="mainmenu">
+				<img src="image/icon-menu.png">
+				<li class="inner-menu" onclick="Changecolor(0)" >
+					<div>
+						<img src="image/icon-add.png">
+						<a href="#"><h3>Thêm nhân sự mới</h3></a>
+					</div>
+				</li>
+				<li class="inner-menu" onclick="Changecolor(1)">
+					<div>
+						<img src="image/icon-fix.jpg">
+						<a href="#"><h3>Sửa nhân sự</h3></a>
+					</div>
+				</li>
+				<li class="inner-menu" onclick="Changecolor(2)">
+					<div>
+						<img src="image/icon-search.ico">
+						<a href="#"><h3>Tìm kiếm</h3></a>
+					</div>
+				</li>
+				<li class="inner-menu" onclick="Changecolor(3)">
+					<div>
+						<img src="image/icon-use-manual.jpg">
+						<a href="#"><h3>Hướng dẫn sử dụng</h3></a>
+					</div>
+				</li>
+				<li class="inner-menu" onclick="Changecolor(4)">
+					<div>
+						<img src="image/icon-contact.png">
+						<a href="#"><h3>Liên hệ chúng tôi</h3></a>
+					</div>
+				</li>
+			</ul>
+		</aside>
+		<article class="article">
+			<div class="form-in"></div>
+			<div class="form-out"></div>
+		</article>
+	</div>
+	<footer class="footer">
+		<div class="footer-left">
+			<h4>KHOA CÔNG NGHỆ THÔNG TIN - HỌC PHẦN THỰC TẬP NHÓM - NHÓM 7</h4>
+			<p>KẾT NỐI VỚI CHÚNG TÔI</p>
+			<div class="connect">
+				<img src="image/icon-facebook.png">
+				<img src="image/icon-instagram.png">
+			</div>
+		</div>
+		<div class="footer-right">
+			
+		</div>
+	</footer>
 
 </body>
 	<script type="text/javascript" src="script.js"></script>
